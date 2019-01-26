@@ -1,0 +1,14 @@
+.res-box{
+    background-color: aqua;
+    height: 300px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.res-btn{
+    background: none;
+    border: none;
+    font-size: 32px;
+    color: brown;
+}

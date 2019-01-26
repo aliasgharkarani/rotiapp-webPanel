@@ -1,0 +1,144 @@
+.parent-home{
+    overflow:hidden;
+}
+.panel1{
+    background: rgb(213, 197, 230);
+}
+.panel1:hover{
+    background: rgb(47, 255, 245);
+    transition:  all 1s;
+}
+.panel2{
+    background: rgb(243, 184, 149);
+}
+.panel2:hover{
+    background: rgb(192, 177, 247);
+    transition:  all 1.5s;
+}
+.panel3{
+    background: rgb(228, 151, 198);
+}
+.panel3:hover{
+    background: rgb(126, 178, 236);
+    transition:  all 2s;
+}
+.whyRotiApp-values{
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+    margin-top: 2%;
+}
+.whyRotiApp-values> p {
+   font-size:13px;
+   text-align:justify;
+}
+.whyRotiApp-values> img {
+    height:100px; 
+    width:100px;
+}
+.WhyRotiApp{
+    display:flex;
+    justify-content:center
+}
+.WhyRotiApp>h3{
+border-bottom:3px solid red
+}
+.video-link{
+    margin-top:1% 
+}
+.video-link > iframe{
+    width:300px;
+    height:200px;
+}
+.change-think-erp{
+    margin-top:1%;
+}
+.change-think-erp > div{
+    display:flex;
+    flex-direction:column;
+}
+.change-think-erp > div > h4{
+text-align:center;
+margin-top:6%;
+}
+.change-think-erp > div > p{
+    text-align:justify;
+    margin-top:2%;
+}
+.important-modules{
+    display:flex;
+    justify-content:center;
+}
+.important-modules > h3 {
+    border-bottom:3px solid red
+}
+.important-modules-details{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    margin-top:2%;
+}
+.important-modules-details > img{
+    height:200px;
+    width:200px;
+}
+.important-modules-details > p{
+    font-size:13px;
+    text-align:center;
+}
+.other-modules{
+    display:flex;
+    justify-content:center;
+}
+.other-modules > h3{
+   border-bottom:3px solid red
+}
+.other-modules-details{
+    display:flex;
+    justify-content:center;
+}
+.sure-link-erp-features-row{
+    background:#37addb;
+    border-bottom:3px solid red;
+}
+.sure-link-erp-features{
+    display:flex;
+    justify-content:center;
+}
+.sure-link-erp-features > h3{
+    border-bottom:3px solid red;
+    color:white;
+}
+.sure-link-erp-features-left-right{
+    display:flex;
+    align-items:center;
+    color:white;
+    flex-direction:column
+}
+.other-features-slc{
+    display:flex;
+    justify-content:center;
+}
+.other-features-slc > h4{
+    color:white;
+}
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(235, 92, 92); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(218, 11, 173); 
+  }
+  
