@@ -55,9 +55,8 @@ class Admin_Panel_Entered extends Component {
                 <Col md={1} sm={0} xs={0} />
                 <Col md={10}>
                     <Col md={4} sm={10} xs={10} className="res-box">
-                        <Button className="res-btn">
-                            Add Restaurants
-                      </Button>
+                        <Link to="/adminPanel_add_res" style={{ fontSize: 30, color: "brown" }}>Add Restaurants
+                        </Link>
                     </Col>
                     <Col md={4} sm={10} xs={10} className="res-box">
                         <Link to="/adminPanel_get_res" style={{ fontSize: 30, color: "brown" }}>Manage Restaurants

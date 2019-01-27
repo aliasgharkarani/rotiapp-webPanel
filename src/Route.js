@@ -5,6 +5,7 @@ import NotFound from './Components/Custom_Components/NotFound';
 import Home from './Components/Home_Component/Home';
 import Admin_Panel from './Components/Admin Panel/Admin_Panel'
 import Admin_Panel_Entered from './Components/Admin_Panel_Entered/Admin_Panel_Entered'
+import adminPanel_add_res from './Components/adminPanel_add_res/adminPanel_add_res'
 import Admin_Panel_Entered_Get_Res from './Components/Get_Rest/index'
 import Admin_Panel_Entered_Get_Orders_Del from './Components/Get_Orders_Del/index'
 import Admin_Panel_Entered_Get_OrdersInP from './Components/Get_Orders_InP/index'
@@ -30,6 +31,7 @@ class Routers extends Component {
                         <Route exact path="/Home" component={Home} />
                         <Route exact path="/Admin_Panel" component={Admin_Panel} />
                         <Route exact path="/Admin_Panel_Entered" component={Admin_Panel_Entered} />
+                        <Route exact path="/adminPanel_add_res" component={adminPanel_add_res} />                       
                         <Route exact path="/adminPanel_get_res" component={Admin_Panel_Entered_Get_Res} />
                         <Route exact path="/adminPanel_get_ordDel" component={Admin_Panel_Entered_Get_Orders_Del} />
                         <Route exact path="/adminPanel_get_ordInP" component={Admin_Panel_Entered_Get_OrdersInP} />
