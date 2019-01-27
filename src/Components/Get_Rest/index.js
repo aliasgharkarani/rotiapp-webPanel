@@ -54,6 +54,7 @@ class Admin_Panel_Entered_Get_Res extends Component {
         return (
             <div className="parent-home">
                 <Header />
+                <h1 style={{textAlign:"center"}}>Update Restaurant</h1>
                 <Row>
                     <Table striped bordered condensed hover>
                         <thead>
