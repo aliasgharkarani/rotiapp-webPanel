@@ -1,5 +1,5 @@
 .res-box{
-    background-color: aqua;
+    background-color: #bde2e2;
     height: 300px;
     border: 2px solid white;
     display: flex;
@@ -10,5 +10,5 @@
     background: none;
     border: none;
     font-size: 32px;
-    color: brown;
+    color: #f50707;
 }
