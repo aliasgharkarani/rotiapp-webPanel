@@ -18,7 +18,7 @@ class Admin_Panel_Entered_Get_Orders extends Component {
         this.Get();
     }
     Get() {
-        fetch('https://rotiappp.herokuapp.com/api/orders/Delivered', {
+        fetch('https://rotiappserver.herokuapp.com/api/orders/Delivered', {
             method: "GET"
         }).then(function (response) {
             return response.json();

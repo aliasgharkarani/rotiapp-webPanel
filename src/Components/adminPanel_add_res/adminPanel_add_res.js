@@ -40,7 +40,7 @@ class adminPanel_add_res extends Component {
             "phoneno": `${this.state.phoneno}`,
             "Password": `${this.state.Password}`
         }
-        fetch(`https://rotiappp.herokuapp.com/api/restaurants`, {
+        fetch(`https://rotiappserver.herokuapp.com/api/restaurants`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

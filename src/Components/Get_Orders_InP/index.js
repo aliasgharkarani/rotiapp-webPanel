@@ -18,7 +18,7 @@ class Admin_Panel_Entered_Get_OrdersInP extends Component {
         this.Get();
     }
     Get() {
-        fetch('https://rotiappp.herokuapp.com/api/orders/In Process', {
+        fetch('https://rotiappserver.herokuapp.com/api/orders/In Process', {
             method: "GET"
         }).then(function (response) {
             return response.json();

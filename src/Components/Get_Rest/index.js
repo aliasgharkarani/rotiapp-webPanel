@@ -18,7 +18,7 @@ class Admin_Panel_Entered_Get_Res extends Component {
         this.Get();
     }
     Get() {
-        fetch('https://rotiappp.herokuapp.com/api/restaurants', {
+        fetch('https://rotiappserver.herokuapp.com/api/restaurants', {
             method: "GET"
         }).then(function (response) {
             return response.json();
@@ -30,7 +30,7 @@ class Admin_Panel_Entered_Get_Res extends Component {
         ).catch(error => console.log(error));
     }
     Delete(idd) {
-        fetch(`https://rotiappp.herokuapp.com/api/restaurants/${idd}`, {
+        fetch(`https://rotiappserver.herokuapp.com/api/restaurants/${idd}`, {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json",
